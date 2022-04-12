@@ -18,4 +18,9 @@ class RestoController extends Controller
         $data =  restaurant::all();
         return view('list', ['data'=>$data]);
     }
+
+    function add(Request $req)
+    {
+        return $req->input();
+    }
 }
