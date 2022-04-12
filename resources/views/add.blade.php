@@ -4,7 +4,7 @@
 
 <div class="col-sm-6">
 {{-- form from bootstrap 4 --}}
-<form method="POST"> 
+<form method="POST" action="add"> 
     @csrf
     <div class="form-group">
         <label>Name</label>
