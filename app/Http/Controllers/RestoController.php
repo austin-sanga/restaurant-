@@ -11,4 +11,9 @@ class RestoController extends Controller
     {
         return view('home');
     }
+
+    function list()
+    {
+        return view('list');
+    }
 }

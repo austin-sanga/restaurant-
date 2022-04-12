@@ -14,15 +14,48 @@
 
     </head>
     <body>
-        <header>
+
+        {{-- <header>
             Menu will be here
-        </header>
+        </header> --}}
+        {{-- ommitted above stuff and pasted a navbar from the bootstrap 4 --}}
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Resto</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="list">List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Add</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Search</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
         <div>
             {{-- this passes data of other pages here --}}
             @yield('content')
         </div>
-        <footer>
+
+        {{-- commented the footer for future adjustments --}}
+        {{-- <footer>
             Copyright by Restaurant App
-        </footer>
+        </footer> --}}
     </body>
 </html>
