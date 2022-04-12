@@ -48,10 +48,13 @@
             </div>
           </nav>
 
+          {{-- container class to center it --}}
+          <div class="container">
         <div>
             {{-- this passes data of other pages here --}}
             @yield('content')
         </div>
+    </div>
 
         {{-- commented the footer for future adjustments --}}
         {{-- <footer>
