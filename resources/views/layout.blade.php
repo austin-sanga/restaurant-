@@ -30,10 +30,10 @@
                   <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="list">List</a>
+                  <a class="nav-link" href="/list">List</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="add">Add</a>
+                    <a class="nav-link" href="/add">Add</a>
                   </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Search</a>
